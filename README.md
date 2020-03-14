@@ -8,6 +8,32 @@ Moodle ha sido empaquetado con Apache, MySQL y PHP.
 
 
 
+CONFIGURACIÓN BASE DE DATOS 
+=============
+
+Servidor de la base de datos: Localhost
+
+Nombre de la base de datos: moodle
+
+Usuario de la base de datos: root
+
+Contraseña de la base de datos: SIN CONTRASEÑA
+
+Prefijo de tablas: mdl_
+
+
+
+
+USUAIO ADMINISTRADOR
+=============
+
+Nombre de usuario adminstrador: admin
+
+Contraseña admin: Kevin12345@
+
+
+
+
 CÓMO USARLO
 =============
 
