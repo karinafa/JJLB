@@ -738,6 +738,22 @@
       'selectedsharingoption' => 2,
       'userinputsharingkey' => '',
     ),
+    'theme_moove/admininfos' => 
+    array (
+      'mode' => 1,
+      'component' => 'theme_moove',
+      'area' => 'admininfos',
+    ),
+    'theme_moove/fontawesomemooveiconmapping' => 
+    array (
+      'mode' => 1,
+      'simplekeys' => true,
+      'simpledata' => true,
+      'staticacceleration' => true,
+      'staticaccelerationsize' => 1,
+      'component' => 'theme_moove',
+      'area' => 'fontawesomemooveiconmapping',
+    ),
   ),
   'definitionmappings' => 
   array (

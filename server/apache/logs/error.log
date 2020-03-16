@@ -5,7 +5,8 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sat Mar 14 21:33:35.536719 2020] [mpm_winnt:notice] [pid 9756:tid 644] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
 [Sat Mar 14 21:33:35.536719 2020] [core:notice] [pid 9756:tid 644] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/kemal/Desktop/Moodle/server/apache -f conf\\httpd.conf'
 [Sat Mar 14 21:33:35.540707 2020] [mpm_winnt:notice] [pid 9756:tid 644] AH00418: Parent: Created child process 12028
-[Sat Mar 14 21:33:35.956594 2020] [ssl:warn] [pid 12028:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+Apache server shutdown initiated...
+sl:warn] [pid 12028:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 [Sat Mar 14 21:33:35.989506 2020] [ssl:warn] [pid 12028:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
 PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sat Mar 14 21:33:36.015438 2020] [mpm_winnt:notice] [pid 12028:tid 624] AH00354: Child: Starting 150 worker threads.
@@ -13,3 +14,44 @@ PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
 [Sat Mar 14 21:36:56.319265 2020] [php7:warn] [pid 12028:tid 1972] [client ::1:61267] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
 [Sat Mar 14 21:39:08.261637 2020] [php7:warn] [pid 12028:tid 1948] [client ::1:61412] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
 [Sat Mar 14 21:39:17.714956 2020] [php7:warn] [pid 12028:tid 1972] [client ::1:61413] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle\\lib\\dml\\mysqli_native_moodle_database.php on line 79, referer: http://localhost/install.php
+[Sun Mar 15 00:39:43.536323 2020] [php7:warn] [pid 12028:tid 1928] [client ::1:57817] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0, referer: http://localhost/admin/roles/define.php?action=edit&roleid=3
+[Sun Mar 15 00:41:16.483231 2020] [mpm_winnt:notice] [pid 9756:tid 644] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Mar 15 00:41:18.485260 2020] [mpm_winnt:notice] [pid 12028:tid 624] AH00364: Child: All worker threads have exited.
+[Sun Mar 15 00:41:18.527148 2020] [mpm_winnt:notice] [pid 9756:tid 644] AH00430: Parent: Child process 12028 exited successfully.
+[Sun Mar 15 22:42:51.556524 2020] [ssl:warn] [pid 1712:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 15 22:42:51.595420 2020] [ssl:warn] [pid 1712:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Mar 15 22:42:52.005325 2020] [mpm_winnt:notice] [pid 1712:tid 620] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Sun Mar 15 22:42:52.005325 2020] [mpm_winnt:notice] [pid 1712:tid 620] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Sun Mar 15 22:42:52.005325 2020] [core:notice] [pid 1712:tid 620] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/kemal/Desktop/Moodle/server/apache -f conf\\httpd.conf'
+[Sun Mar 15 22:42:52.009312 2020] [mpm_winnt:notice] [pid 1712:tid 620] AH00418: Parent: Created child process 12584
+[Sun Mar 15 22:42:52.430187 2020] [ssl:warn] [pid 12584:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Mar 15 22:42:52.461104 2020] [ssl:warn] [pid 12584:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Sun Mar 15 22:42:52.487035 2020] [mpm_winnt:notice] [pid 12584:tid 652] AH00354: Child: Starting 150 worker threads.
+[Sun Mar 15 23:49:41.721885 2020] [php7:warn] [pid 12584:tid 1952] [client ::1:59280] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0, referer: http://localhost/admin/roles/define.php?action=edit&roleid=3
+[Sun Mar 15 23:51:35.386798 2020] [php7:warn] [pid 12584:tid 1968] [client ::1:59392] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0, referer: http://localhost/admin/roles/define.php?action=edit&roleid=3
+[Sun Mar 15 23:54:05.508572 2020] [php7:warn] [pid 12584:tid 1968] [client ::1:59470] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0, referer: http://localhost/admin/roles/define.php?action=edit&roleid=3
+[Mon Mar 16 00:11:11.205763 2020] [mpm_winnt:notice] [pid 1712:tid 620] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 16 00:11:13.206826 2020] [mpm_winnt:notice] [pid 12584:tid 652] AH00364: Child: All worker threads have exited.
+[Mon Mar 16 00:11:13.244726 2020] [mpm_winnt:notice] [pid 1712:tid 620] AH00430: Parent: Child process 12584 exited successfully.
+[Mon Mar 16 11:12:53.091334 2020] [ssl:warn] [pid 7340:tid 76] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 16 11:12:53.122575 2020] [ssl:warn] [pid 7340:tid 76] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Mar 16 11:12:53.488964 2020] [mpm_winnt:notice] [pid 7340:tid 76] AH00455: Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.3.11 configured -- resuming normal operations
+[Mon Mar 16 11:12:53.488964 2020] [mpm_winnt:notice] [pid 7340:tid 76] AH00456: Apache Lounge VC15 Server built: Aug 11 2019 12:20:04
+[Mon Mar 16 11:12:53.488964 2020] [core:notice] [pid 7340:tid 76] AH00094: Command line: 'apache\\bin\\httpd.exe -d C:/Users/kemal/Desktop/Moodle/server/apache -f conf\\httpd.conf'
+[Mon Mar 16 11:12:53.488964 2020] [mpm_winnt:notice] [pid 7340:tid 76] AH00418: Parent: Created child process 5480
+[Mon Mar 16 11:12:53.879497 2020] [ssl:warn] [pid 5480:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Mar 16 11:12:53.910771 2020] [ssl:warn] [pid 5480:tid 652] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+PHP Warning:  Module 'openssl' already loaded in Unknown on line 0
+[Mon Mar 16 11:12:53.926375 2020] [mpm_winnt:notice] [pid 5480:tid 652] AH00354: Child: Starting 150 worker threads.
+[Mon Mar 16 16:16:58.181085 2020] [php7:warn] [pid 5480:tid 1904] [client ::1:63427] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0, referer: http://localhost/admin/roles/define.php
+[Mon Mar 16 16:18:42.051284 2020] [php7:warn] [pid 5480:tid 1912] [client ::1:63458] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0, referer: http://localhost/admin/roles/define.php
+[Mon Mar 16 16:20:30.019831 2020] [php7:warn] [pid 5480:tid 1900] [client ::1:63525] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0, referer: http://localhost/admin/roles/define.php
+[Mon Mar 16 16:27:26.933440 2020] [php7:warn] [pid 5480:tid 1904] [client ::1:63601] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0, referer: http://localhost/admin/roles/define.php
+[Mon Mar 16 17:23:32.710200 2020] [php7:warn] [pid 5480:tid 1916] [client ::1:64244] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0, referer: http://localhost/admin/roles/define.php?action=edit&roleid=9
+[Mon Mar 16 18:04:06.209686 2020] [php7:warn] [pid 5480:tid 1928] [client ::1:65253] PHP Warning:  Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini. in Unknown on line 0, referer: http://localhost/admin/roles/define.php?action=edit&roleid=3
+[Mon Mar 16 20:34:27.635591 2020] [mpm_winnt:notice] [pid 7340:tid 76] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Mar 16 20:34:29.638320 2020] [mpm_winnt:notice] [pid 5480:tid 652] AH00364: Child: All worker threads have exited.
+[Mon Mar 16 20:34:29.680199 2020] [mpm_winnt:notice] [pid 7340:tid 76] AH00430: Parent: Child process 5480 exited successfully.

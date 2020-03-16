@@ -540,6 +540,7 @@ $cache = array (
     array (
       'boost' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/boost',
       'classic' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/classic',
+      'moove' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove',
     ),
     'local' => 
     array (
@@ -3517,6 +3518,21 @@ $cache = array (
     'theme_classic\\output\\core_renderer' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/classic/classes/output/core_renderer.php',
     'theme_classic\\output\\icon_system_fontawesome' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/classic/classes/output/icon_system_fontawesome.php',
     'theme_classic\\privacy\\provider' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/classic/classes/privacy/provider.php',
+    'theme_moove\\api\\accessibility' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/api/accessibility.php',
+    'theme_moove\\format_topics_renderer' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/format_topics_renderer.php',
+    'theme_moove\\output\\certificates' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/output/certificates.php',
+    'theme_moove\\output\\core\\course_renderer' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/output/core/course_renderer.php',
+    'theme_moove\\output\\core_renderer' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/output/core_renderer.php',
+    'theme_moove\\output\\mod_forum\\email\\renderer_htmlemail' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/output/mod_forum/email/renderer_htmlemail.php',
+    'theme_moove\\output\\renderer' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/output/renderer.php',
+    'theme_moove\\privacy\\provider' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/privacy/provider.php',
+    'theme_moove\\task\\diskusage' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/task/diskusage.php',
+    'theme_moove\\util\\admininfos' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/util/admininfos.php',
+    'theme_moove\\util\\certificates' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/util/certificates.php',
+    'theme_moove\\util\\extras' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/util/extras.php',
+    'theme_moove\\util\\icon_system' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/util/icon_system.php',
+    'theme_moove\\util\\theme_settings' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/util/theme_settings.php',
+    'theme_moove_format_topics_renderer' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/classes/format_topics_renderer.php',
     'tinymce_ctrlhelp\\privacy\\provider' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/lib/editor/tinymce/plugins/ctrlhelp/classes/privacy/provider.php',
     'tinymce_managefiles\\privacy\\provider' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/lib/editor/tinymce/plugins/managefiles/classes/privacy/provider.php',
     'tinymce_moodleemoticon\\privacy\\provider' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/lib/editor/tinymce/plugins/moodleemoticon/classes/privacy/provider.php',
@@ -4226,6 +4242,7 @@ $cache = array (
       array (
         'boost' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/boost/lib.php',
         'classic' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/classic/lib.php',
+        'moove' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/lib.php',
       ),
       'local' => 
       array (
@@ -4568,6 +4585,7 @@ $cache = array (
       array (
         'boost' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/boost/settings.php',
         'classic' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/classic/settings.php',
+        'moove' => 'C:\\Users\\kemal\\Desktop\\Moodle\\server\\moodle/theme/moove/settings.php',
       ),
       'local' => 
       array (
